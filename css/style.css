@@ -1,0 +1,41 @@
+.lightblue {
+	background-color:rgb(32,71,86);
+}
+
+.darkblue {
+	background-color:rgb(20,33,46);
+}
+
+.purple {
+	background-color:rgb(57,41,66);
+}
+
+.grey {
+	background-color:rgb(168,167,161);
+}
+
+.maroon {
+	background-color:rgb(80,12,31);
+}
+
+html *{
+	color: white;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
