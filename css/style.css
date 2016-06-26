@@ -1,26 +1,52 @@
 :root {
-	--lightblue:rgb(32,71,86);
-	--darkblue:rgb(20,33,46);
+	--mauve:rgb(159, 132, 133);
+	--burgundy:rgb(109,29,46);
 	--purple:rgb(57,41,66);
-	--grey:rgb(168,167,161);
+	--tan:rgb(225,217,204);
 	--maroon:rgb(80,12,31);
 }
 
-html *{
+li * {
 	color: white;
+}
+
+body {
+	background-color: var(--tan);
+}
+
+.square-image {
+	height: 90%;
+	display: block;
+	margin: 0 auto;
 }
 
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
-    background-color: var(--darkblue)
+    background-color: var(--burgundy);
 }
 
-
+.square {
+	background-color: white;
+	margin: 5px;
+	border: 4px;
+	border-style: solid;
+	border-color: var(--maroon);
+	border-radius: 4px;
+	min-height: 100px;
+	max-height: 200px;
+}
 
 .navbar .navbar-collapse {
     text-align: center;
-    background-color: var(--darkblue)
+    background-color: var(--burgundy);
+    border-style: solid;
+    border-color: var(--burgundy);
+    border-radius: 4px;
+}
+
+.navbar-header {
+    background-color: var(--burgundy);	
 }
 
 
@@ -33,6 +59,11 @@ html *{
 }
 
 .selected {
-	background-color: var(--lightblue);
+	background-color: var(--mauve);
+	border-style: solid;
+    border-color: var(--mauve);
+    border-radius: 4px;
 }
+
+
 
